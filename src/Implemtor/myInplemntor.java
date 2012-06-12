@@ -14,27 +14,27 @@ public class myInplemntor extends Implementor {
 
     
     
-    public myInplemntor(String params) throws  Exception {
+    public myInplemntor(String params) throws  ImplementorExcption {
     	//TODO genrate constractor		 
 	}
 	
 	
 
 	@Override
-	public Certificate genrateKeyPair(String dName){
+	public Certificate genrateKeyPair(String dName) throws  ImplementorExcption {
 		//TODO genrate ke pair 
 	    return null; 		
 	}
 
 
 	@Override
-	public boolean installSecertKey(SecretKey key) {
+	public boolean installSecertKey(SecretKey key) throws  ImplementorExcption {
 		// TODO Auto-generated method stub
 		return false;
 	}
 
 	@Override
-	public boolean installTrustCert(Certificate cert) {
+	public boolean installTrustCert(Certificate cert) throws  ImplementorExcption {
 
 		//TODO install trust cert 
 		return false ; 
